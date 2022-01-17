@@ -1,0 +1,63 @@
+.dashboard {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 30px);
+  top: 30px;
+}
+.info_container {
+  margin: 0 auto;
+  width: 65%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main_heading {
+  color: dodgerblue;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.greeting {
+  display: flex;
+  margin: 1rem 0;
+}
+.greeting p {
+  font-size: large;
+  margin-left: 5px;
+}
+.button_list {
+  list-style: none;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.btn_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: navajowhite;
+  cursor: pointer;
+}
+.sub_heading {
+  margin: 1rem 0;
+  font-size: x-large;
+}
+th {
+  background-color: navajowhite;
+  height: 2rem;
+}
+td {
+  color: grey;
+}
+table,
+th,
+td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  text-align: center;
+}
+.edu_dashboard {
+  margin-bottom: 2rem;
+}

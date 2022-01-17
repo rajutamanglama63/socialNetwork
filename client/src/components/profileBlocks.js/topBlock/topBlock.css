@@ -1,0 +1,36 @@
+.top_block {
+  height: 300px;
+  margin-top: 30px;
+  background-color: navajowhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display_pic_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.paramater {
+  font-weight: bolder;
+}
+span {
+  color: grey;
+}
+.intro_block {
+  background-color: aliceblue;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

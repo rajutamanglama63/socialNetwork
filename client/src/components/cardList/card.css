@@ -1,0 +1,91 @@
+.upper_part {
+  display: flex;
+  justify-content: space-between;
+}
+.Profile_pic {
+  width: 150px;
+  height: 150px;
+  flex: 4;
+  border: 1px solid rgb(247, 245, 245);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.info {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid grey; */
+  padding: 0 0 0 1rem;
+}
+.user_assets {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgb(238, 235, 235);
+  padding: 0.5rem;
+}
+.name h4 {
+  font-weight: 700;
+  font-size: x-large;
+}
+.name p {
+  font-size: small;
+  font-weight: bolder;
+  color: grey;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects p {
+  font-size: small;
+  color: grey;
+}
+.projects span {
+  font-size: x-large;
+  font-weight: 400;
+}
+.followers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.followers p {
+  font-size: small;
+  color: grey;
+}
+.followers span {
+  font-size: x-large;
+  font-weight: 400;
+}
+.ratings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ratings p {
+  font-size: small;
+  color: grey;
+}
+.ratings span {
+  font-size: x-large;
+  font-weight: 400;
+}
+.lower_part {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid yellow; */
+  margin-top: 10px;
+}

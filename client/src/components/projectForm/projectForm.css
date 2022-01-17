@@ -1,0 +1,30 @@
+.project_form {
+  margin-top: 30px;
+  background-color: aliceblue;
+  height: calc(100vh - 30px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_container {
+  margin: 0 auto;
+  width: 65%;
+}
+.main_heading {
+  color: dodgerblue;
+  font-weight: bolder;
+  font-size: xx-large;
+  padding-top: 40px;
+}
+.instruction {
+  display: flex;
+  margin: 1rem 0;
+}
+.option_btns {
+  display: flex;
+  margin: 0.5rem 0;
+}
+.form_project {
+  display: flex;
+  flex-direction: column;
+}

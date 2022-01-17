@@ -1,0 +1,26 @@
+/* .background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/38070/pexels-photo-38070.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 30px);
+  top: 30px;
+} */
+.technician_page {
+  margin-top: 35px;
+  scrollbar-width: none;
+}
+
+.list_container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}

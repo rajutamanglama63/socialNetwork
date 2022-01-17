@@ -1,0 +1,71 @@
+.post {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 30px);
+  top: 30px;
+}
+.post_container {
+  margin: 0 auto;
+  width: 65%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.post_heading {
+  color: dodgerblue;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.greeting {
+  display: flex;
+  margin: 1rem 0;
+}
+.greeting p {
+  font-size: large;
+  margin-left: 5px;
+}
+.say_something {
+  background-color: dodgerblue;
+  border: none;
+}
+.say_something p {
+  padding: 5px;
+  font-size: small;
+  color: whitesmoke;
+}
+.post_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.post_btn {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  border: 1px solid rgb(245, 243, 243);
+  margin: 3rem 0;
+}
+.uploaded_post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+.uploaded_post p {
+  margin: 1rem 0;
+}
+.post_creater {
+  font-size: larger;
+  font-weight: bolder;
+}
+.other_option {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.last_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: antiquewhite;
+  margin: 1rem 0;
+  padding-top: 20px;
+}
+.left_part {
+  flex: 0.5;
+}
+.education {
+  flex: 0.5;
+}
